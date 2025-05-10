@@ -20,3 +20,22 @@ randomly without memory instead of systematically trying them?
 
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
+
+The runtime complexity of this implementation is $\Theta$(n*n!) because there are n! permutations for a list of length n.
+
+next permutation = in $\Theta$(n) time
+sorted check = in $\Theta$(n) time
+Overall complexity = $\Theta$(n*n!)
+
+Best Case input is that the array is already sorted. This would mean that each check for if it's sorted would return with the minimum one check.
+
+Worst Case input is that the array is in reverse order from what it needs to be sorted into. This would result in every single permutation being generated before hitting the one that is sorted.
+
+If Random permutations are generated without memory, the same permutation may be repeated multiple times. The expected number of attempts would be n!, but since there can be duplicates, the expected time becomes $\Theta$(n!*n).
+
+“I certify that I have listed all sources used to complete this exercise, including the use
+of any Large Language Models. All of the work is my own, except where stated
+otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is
+suspected, charges may be filed against me without prior notice.”
+
+For this assignment, I consulted with Chat GPT on the clarity and specifity of my writing.

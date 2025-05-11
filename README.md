@@ -38,4 +38,4 @@ of any Large Language Models. All of the work is my own, except where stated
 otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is
 suspected, charges may be filed against me without prior notice.”
 
-For this assignment, I consulted with Chat GPT on the clarity and specifity of my writing.
+For this assignment, I consulted with Chat GPT on the clarity and specifity of my writing. I also received help from Chat GPT regarding a recurring issue I was having with the eslint check failing.
